@@ -1,0 +1,888 @@
+root@9.91.65.19:/dockerdata/cathy/consumer/hvd-test-master# gdb python3 86232
+GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-80.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /usr/bin/python3.6...Reading symbols from /usr/bin/python3.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Attaching to program: /usr/bin/python3, process 86232
+Reading symbols from /lib64/libonion.so...done.
+Loaded symbols for /lib64/libonion.so
+Reading symbols from /usr/lib64/libpython3.6m.so.1.0...Reading symbols from /usr/lib64/libpython3.6m.so.1.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libpython3.6m.so.1.0
+Reading symbols from /usr/lib64/libpthread.so.0...(no debugging symbols found)...done.
+[New LWP 87369]
+[New LWP 87367]
+[New LWP 87295]
+[New LWP 87194]
+[New LWP 87193]
+[New LWP 87192]
+[New LWP 87191]
+[New LWP 87190]
+[New LWP 87189]
+[New LWP 87188]
+[New LWP 87187]
+[New LWP 87186]
+[New LWP 87185]
+[New LWP 87184]
+[New LWP 87183]
+[New LWP 87182]
+[New LWP 87181]
+[New LWP 87180]
+[New LWP 87179]
+[New LWP 87178]
+[New LWP 87177]
+[New LWP 87176]
+[New LWP 87175]
+[New LWP 87174]
+[New LWP 87173]
+[New LWP 87172]
+[New LWP 87171]
+[New LWP 87170]
+[New LWP 87169]
+[New LWP 87168]
+[New LWP 87167]
+[New LWP 87166]
+[New LWP 87165]
+[New LWP 87164]
+[New LWP 87163]
+[New LWP 87162]
+[New LWP 87161]
+[New LWP 87160]
+[New LWP 87159]
+[New LWP 87158]
+[New LWP 87157]
+[New LWP 87156]
+[New LWP 87155]
+[New LWP 87154]
+[New LWP 87153]
+[New LWP 87152]
+[New LWP 87151]
+[New LWP 87150]
+[New LWP 87149]
+[New LWP 87045]
+[New LWP 87044]
+[New LWP 87008]
+[New LWP 86809]
+[New LWP 86808]
+[New LWP 86807]
+[New LWP 86806]
+[New LWP 86805]
+[New LWP 86804]
+[New LWP 86803]
+[New LWP 86802]
+[New LWP 86801]
+[New LWP 86800]
+[New LWP 86799]
+[New LWP 86798]
+[New LWP 86797]
+[New LWP 86796]
+[New LWP 86795]
+[New LWP 86794]
+[New LWP 86793]
+[New LWP 86792]
+[New LWP 86791]
+[New LWP 86790]
+[New LWP 86789]
+[New LWP 86788]
+[New LWP 86787]
+[New LWP 86786]
+[New LWP 86785]
+[New LWP 86784]
+[New LWP 86783]
+[New LWP 86782]
+[New LWP 86781]
+[New LWP 86780]
+[New LWP 86779]
+[New LWP 86778]
+[New LWP 86777]
+[New LWP 86776]
+[New LWP 86775]
+[New LWP 86774]
+[New LWP 86773]
+[New LWP 86772]
+[New LWP 86771]
+[New LWP 86770]
+[New LWP 86769]
+[New LWP 86768]
+[New LWP 86767]
+[New LWP 86766]
+[New LWP 86765]
+[New LWP 86764]
+[New LWP 86763]
+[New LWP 86761]
+[New LWP 86760]
+[New LWP 86759]
+[New LWP 86758]
+[New LWP 86757]
+[New LWP 86756]
+[New LWP 86755]
+[New LWP 86754]
+[New LWP 86753]
+[New LWP 86752]
+[New LWP 86751]
+[New LWP 86750]
+[New LWP 86749]
+[New LWP 86748]
+[New LWP 86747]
+[New LWP 86746]
+[New LWP 86745]
+[New LWP 86744]
+[New LWP 86743]
+[New LWP 86742]
+[New LWP 86741]
+[New LWP 86740]
+[New LWP 86739]
+[New LWP 86738]
+[New LWP 86737]
+[New LWP 86736]
+[New LWP 86735]
+[New LWP 86734]
+[New LWP 86733]
+[New LWP 86732]
+[New LWP 86731]
+[New LWP 86730]
+[New LWP 86729]
+[New LWP 86728]
+[New LWP 86727]
+[New LWP 86726]
+[New LWP 86725]
+[New LWP 86724]
+[New LWP 86722]
+[New LWP 86721]
+[New LWP 86720]
+[New LWP 86719]
+[New LWP 86718]
+[New LWP 86717]
+[New LWP 86716]
+[New LWP 86486]
+[New LWP 86481]
+[New LWP 86468]
+[New LWP 86467]
+[New LWP 86466]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib64/libthread_db.so.1".
+Loaded symbols for /usr/lib64/libpthread.so.0
+Reading symbols from /usr/lib64/libdl.so.2...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libdl.so.2
+Reading symbols from /usr/lib64/libutil.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libutil.so.1
+Reading symbols from /usr/lib64/libm.so.6...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libm.so.6
+Reading symbols from /usr/lib64/libc.so.6...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libc.so.6
+Reading symbols from /lib64/ld-linux-x86-64.so.2...(no debugging symbols found)...done.
+Loaded symbols for /lib64/ld-linux-x86-64.so.2
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/core/_multiarray_umath.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/core/../.libs/libopenblasp-r0-34a18dc3.3.7.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/core/../.libs/libopenblasp-r0-34a18dc3.3.7.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/core/../.libs/libgfortran-ed201abd.so.3.0.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/core/../.libs/libgfortran-ed201abd.so.3.0.0
+Reading symbols from /usr/lib64/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_pickle.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/core/_multiarray_tests.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_ctypes.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/libffi.so.6...Reading symbols from /usr/lib64/libffi.so.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libffi.so.6
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/linalg/lapack_lite.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/linalg/_umath_linalg.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/libz.so.1...Reading symbols from /usr/lib64/libz.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libz.so.1
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/libbz2.so.1...Reading symbols from /usr/lib64/libbz2.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libbz2.so.1
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_lzma.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/liblzma.so.5...Reading symbols from /usr/lib64/liblzma.so.5...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/liblzma.so.5
+Reading symbols from /usr/lib64/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_decimal.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/fft/_pocketfft_internal.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/mtrand.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_bit_generator.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_bit_generator.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_common.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_hashlib.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/libssl.so.10...Reading symbols from /usr/lib64/libssl.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libssl.so.10
+Reading symbols from /usr/lib64/libcrypto.so.10...Reading symbols from /usr/lib64/libcrypto.so.10...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libcrypto.so.10
+Reading symbols from /usr/lib64/libgssapi_krb5.so.2...Reading symbols from /usr/lib64/libgssapi_krb5.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libgssapi_krb5.so.2
+Reading symbols from /usr/lib64/libkrb5.so.3...Reading symbols from /usr/lib64/libkrb5.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libkrb5.so.3
+Reading symbols from /usr/lib64/libcom_err.so.2...Reading symbols from /usr/lib64/libcom_err.so.2...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libcom_err.so.2
+Reading symbols from /usr/lib64/libk5crypto.so.3...Reading symbols from /usr/lib64/libk5crypto.so.3...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libk5crypto.so.3
+Reading symbols from /usr/lib64/libkrb5support.so.0...Reading symbols from /usr/lib64/libkrb5support.so.0...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libkrb5support.so.0
+Reading symbols from /usr/lib64/libkeyutils.so.1...Reading symbols from /usr/lib64/libkeyutils.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libkeyutils.so.1
+Reading symbols from /usr/lib64/libresolv.so.2...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libresolv.so.2
+Reading symbols from /usr/lib64/libselinux.so.1...Reading symbols from /usr/lib64/libselinux.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libselinux.so.1
+Reading symbols from /usr/lib64/libpcre.so.1...Reading symbols from /usr/lib64/libpcre.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libpcre.so.1
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_blake2.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_sha3.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_bisect.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_random.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_bounded_integers.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_mt19937.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_philox.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_pcg64.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_sfc64.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/numpy/random/_generator.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_opcode.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/../libtensorflow_framework.so.1...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/../libtensorflow_framework.so.1
+Reading symbols from /usr/lib64/librt.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/librt.so.1
+Reading symbols from /usr/lib64/libstdc++.so.6...done.
+Loaded symbols for /usr/lib64/libstdc++.so.6
+Reading symbols from /usr/lib64/libgcc_s.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libgcc_s.so.1
+Reading symbols from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_tf_stack.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_tf_stack.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/pyexpat.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/libexpat.so.1...Reading symbols from /usr/lib64/libexpat.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libexpat.so.1
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_socket.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/google/protobuf/internal/_api_implementation.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/google/protobuf/internal/_api_implementation.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/google/protobuf/pyext/_message.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/google/protobuf/pyext/_message.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_csv.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/fcntl.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/termios.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/framework/fast_tensor_util.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/framework/fast_tensor_util.so
+Reading symbols from /usr/lib64/libuuid.so.1...Reading symbols from /usr/lib64/libuuid.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libuuid.so.1
+Reading symbols from /usr/local/lib64/python3.6/site-packages/wrapt/_wrappers.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/wrapt/_wrappers.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_json.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/_ssl.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/array.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/_errors.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/.libs/libhdf5-beac1db3.so.103.0.0
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/.libs/libhdf5_hl-db841637.so.100.1.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/.libs/libhdf5_hl-db841637.so.100.1.1
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/.libs/./libsz-1c7dd0cf.so.2.0.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/.libs/./libsz-1c7dd0cf.so.2.0.1
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/.libs/./libaec-2147abcd.so.0.0.4...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/.libs/./libaec-2147abcd.so.0.0.4
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/.libs/./libz-a147dcb0.so.1.2.3...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/.libs/./libz-a147dcb0.so.1.2.3
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/defs.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/_objects.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/_conv.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5r.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5t.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/utils.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5z.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5a.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5s.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5p.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5ac.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/_proxy.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5d.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5ds.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5f.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5g.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5i.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5fd.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5pl.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5pl.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5o.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/h5py/h5l.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/lib64/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so...Reading symbols from /usr/lib64/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/python3.6/lib-dynload/unicodedata.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/tensorflow_core/lite/experimental/microfrontend/python/ops/_audio_microfrontend_op.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/tensorflow_core/lite/experimental/microfrontend/python/ops/_audio_microfrontend_op.so
+Reading symbols from /usr/local/lib64/python3.6/site-packages/horovod/tensorflow/mpi_lib.cpython-36m-x86_64-linux-gnu.so...done.
+Loaded symbols for /usr/local/lib64/python3.6/site-packages/horovod/tensorflow/mpi_lib.cpython-36m-x86_64-linux-gnu.so
+Reading symbols from /usr/local/cuda/lib64/libcudart.so.10.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcudart.so.10.0
+Reading symbols from /usr/local/lib/libmpi.so.40...done.
+Loaded symbols for /usr/local/lib/libmpi.so.40
+Reading symbols from /usr/local/lib/libopen-rte.so.40...done.
+Loaded symbols for /usr/local/lib/libopen-rte.so.40
+Reading symbols from /usr/local/lib/libopen-pal.so.40...done.
+Loaded symbols for /usr/local/lib/libopen-pal.so.40
+Reading symbols from /usr/local/lib/openmpi/mca_shmem_mmap.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_shmem_mmap.so
+Reading symbols from /usr/local/lib/openmpi/mca_reachable_weighted.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_reachable_weighted.so
+Reading symbols from /usr/local/lib/openmpi/mca_schizo_flux.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_schizo_flux.so
+Reading symbols from /usr/local/lib/openmpi/mca_schizo_ompi.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_schizo_ompi.so
+Reading symbols from /usr/local/lib/openmpi/mca_schizo_orte.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_schizo_orte.so
+Reading symbols from /usr/local/lib/openmpi/mca_schizo_slurm.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_schizo_slurm.so
+Reading symbols from /usr/local/lib/openmpi/mca_ess_pmi.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_ess_pmi.so
+Reading symbols from /usr/local/lib/openmpi/mca_pmix_pmix3x.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_pmix_pmix3x.so
+Reading symbols from /usr/local/lib/pmix/mca_bfrops_v12.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_bfrops_v12.so
+Reading symbols from /usr/local/lib/pmix/mca_bfrops_v20.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_bfrops_v20.so
+Reading symbols from /usr/local/lib/pmix/mca_bfrops_v21.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_bfrops_v21.so
+Reading symbols from /usr/local/lib/pmix/mca_bfrops_v3.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_bfrops_v3.so
+Reading symbols from /usr/local/lib/pmix/mca_ptl_tcp.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_ptl_tcp.so
+Reading symbols from /usr/local/lib/pmix/mca_ptl_usock.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_ptl_usock.so
+Reading symbols from /usr/local/lib/pmix/mca_psec_native.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_psec_native.so
+Reading symbols from /usr/local/lib/pmix/mca_gds_ds12.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_gds_ds12.so
+Reading symbols from /usr/local/lib/libmca_common_dstore.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/libmca_common_dstore.so.1
+Reading symbols from /usr/local/lib/pmix/mca_gds_ds21.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_gds_ds21.so
+Reading symbols from /usr/local/lib/pmix/mca_gds_hash.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_gds_hash.so
+Reading symbols from /usr/local/lib/pmix/mca_pshmem_mmap.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_pshmem_mmap.so
+Reading symbols from /usr/local/lib/pmix/mca_preg_native.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_preg_native.so
+Reading symbols from /usr/local/lib/pmix/mca_plog_default.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_plog_default.so
+Reading symbols from /usr/local/lib/pmix/mca_plog_stdfd.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_plog_stdfd.so
+Reading symbols from /usr/local/lib/pmix/mca_plog_syslog.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/pmix/mca_plog_syslog.so
+Reading symbols from /usr/local/lib/openmpi/mca_state_app.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_state_app.so
+Reading symbols from /usr/local/lib/openmpi/mca_errmgr_default_app.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_errmgr_default_app.so
+Reading symbols from /usr/local/lib/openmpi/mca_allocator_basic.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_allocator_basic.so
+Reading symbols from /usr/local/lib/openmpi/mca_allocator_bucket.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_allocator_bucket.so
+Reading symbols from /usr/local/lib/openmpi/mca_rcache_gpusm.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_rcache_gpusm.so
+Reading symbols from /usr/local/lib/libmca_common_cuda.so.40...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/libmca_common_cuda.so.40
+Reading symbols from /usr/local/lib/openmpi/mca_rcache_grdma.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_rcache_grdma.so
+Reading symbols from /usr/local/lib/openmpi/mca_rcache_rgpusm.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_rcache_rgpusm.so
+Reading symbols from /usr/local/lib/openmpi/mca_mpool_hugepage.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_mpool_hugepage.so
+Reading symbols from /usr/local/lib/openmpi/mca_bml_r2.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_bml_r2.so
+Reading symbols from /usr/local/lib/openmpi/mca_btl_self.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_btl_self.so
+Reading symbols from /usr/local/lib/openmpi/mca_btl_sm.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_btl_sm.so
+Reading symbols from /usr/local/lib/openmpi/mca_btl_smcuda.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_btl_smcuda.so
+Reading symbols from /usr/local/lib/libmca_common_sm.so.40...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/libmca_common_sm.so.40
+Reading symbols from /usr/local/lib/openmpi/mca_btl_tcp.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_btl_tcp.so
+Reading symbols from /usr/local/lib/openmpi/mca_btl_vader.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_btl_vader.so
+Reading symbols from /usr/lib64/libcuda.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libcuda.so.1
+Reading symbols from /usr/lib64/libnvidia-fatbinaryloader.so.418.116.00...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libnvidia-fatbinaryloader.so.418.116.00
+Reading symbols from /usr/local/lib/openmpi/mca_pml_ob1.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_pml_ob1.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_basic.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_basic.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_cuda.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_cuda.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_inter.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_inter.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_libnbc.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_libnbc.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_self.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_self.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_sm.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_sm.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_sync.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_sync.so
+Reading symbols from /usr/local/lib/openmpi/mca_coll_tuned.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_coll_tuned.so
+Reading symbols from /usr/local/lib/openmpi/mca_osc_pt2pt.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_osc_pt2pt.so
+Reading symbols from /usr/local/lib/openmpi/mca_osc_rdma.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_osc_rdma.so
+Reading symbols from /usr/local/lib/openmpi/mca_osc_sm.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_osc_sm.so
+Reading symbols from /usr/local/lib/openmpi/mca_patcher_overwrite.so...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/lib/openmpi/mca_patcher_overwrite.so
+Reading symbols from /usr/local/cuda/lib64/libcublas.so.10.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcublas.so.10.0
+Reading symbols from /usr/local/cuda/lib64/libcufft.so.10.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcufft.so.10.0
+Reading symbols from /usr/local/cuda/lib64/libcurand.so.10.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcurand.so.10.0
+Reading symbols from /usr/local/cuda/lib64/libcusolver.so.10.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcusolver.so.10.0
+Reading symbols from /usr/local/cuda/lib64/libcusparse.so.10.0...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcusparse.so.10.0
+Reading symbols from /usr/local/cuda/lib64/libcudnn.so.7...(no debugging symbols found)...done.
+Loaded symbols for /usr/local/cuda/lib64/libcudnn.so.7
+Reading symbols from /usr/lib64/libibverbs.so...Reading symbols from /usr/lib64/libibverbs.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libibverbs.so
+Reading symbols from /usr/lib64/libnl-route-3.so.200...Reading symbols from /usr/lib64/libnl-route-3.so.200...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libnl-route-3.so.200
+Reading symbols from /usr/lib64/libnl-3.so.200...Reading symbols from /usr/lib64/libnl-3.so.200...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libnl-3.so.200
+Reading symbols from /usr/lib64/librxe-rdmav2.so...Reading symbols from /usr/lib64/librxe-rdmav2.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/librxe-rdmav2.so
+Reading symbols from /lib64/libmlx5-rdmav2.so...Reading symbols from /lib64/libmlx5-rdmav2.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /lib64/libmlx5-rdmav2.so
+Reading symbols from /usr/lib64/libnuma.so.1...Reading symbols from /usr/lib64/libnuma.so.1...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libnuma.so.1
+Reading symbols from /usr/lib64/libmlx4-rdmav2.so...Reading symbols from /usr/lib64/libmlx4-rdmav2.so...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libmlx4-rdmav2.so
+Reading symbols from /usr/lib64/libnvidia-ml.so.1...(no debugging symbols found)...done.
+Loaded symbols for /usr/lib64/libnvidia-ml.so.1
+0x00007f5e156fd809 in syscall () from /usr/lib64/libc.so.6
+Missing separate debuginfos, use: debuginfo-install python3-3.6.8-10.el7.x86_64
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) bt
+#0  0x00007f5e156fd809 in syscall () from /usr/lib64/libc.so.6
+#1  0x00007f5d65b3c87b in nsync::nsync_mu_semaphore_p_with_deadline(nsync::nsync_semaphore_s_*, timespec) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#2  0x00007f5d65b3be99 in nsync::nsync_sem_wait_with_cancel_(nsync::waiter*, timespec, nsync::nsync_note_s_*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#3  0x00007f5d65b3945b in nsync::nsync_cv_wait_with_deadline_generic(nsync::nsync_cv_s_*, void*, void (*)(void*), void (*)(void*), timespec, nsync::nsync_note_s_*) () from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#4  0x00007f5d65b39933 in nsync::nsync_cv_wait_with_deadline(nsync::nsync_cv_s_*, nsync::nsync_mu_s_*, timespec, nsync::nsync_note_s_*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#5  0x00007f5d60b897dc in tensorflow::DirectSession::WaitForNotification(tensorflow::Notification*, long long) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#6  0x00007f5d60b8982b in tensorflow::DirectSession::WaitForNotification(tensorflow::DirectSession::RunState*, tensorflow::CancellationManager*, long long) () from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#7  0x00007f5d60b92ebc in tensorflow::DirectSession::RunInternal(long long, tensorflow::RunOptions const&, tensorflow::CallFrameInterface*, tensorflow::DirectSession::ExecutorsAndKeys*, tensorflow::RunMetadata*, tensorflow::thread::ThreadPoolOptions const&) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#8  0x00007f5d60b9d3de in tensorflow::DirectSession::Run(tensorflow::RunOptions const&, std::vector<std::pair<std::string, tensorflow::Tensor>, std::allocator<std::pair<std::string, tensorflow::Tensor> > > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tensorflow::RunMetadata*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#9  0x00007f5d5d968b3d in tensorflow::SessionRef::Run(tensorflow::RunOptions const&, std::vector<std::pair<std::string, tensorflow::Tensor>, std::allocator<std::pair<std::string, tensorflow::Tensor> > > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tensorflow::RunMetadata*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#10 0x00007f5d5e00fd93 in TF_Run_Helper(tensorflow::Session*, char const*, TF_Buffer const*, std::vector<std::pair<std::string, tensorflow::Tensor>, std::allocator<std::pair<std::string, tensorflow::Tensor> > > const&, std::vector<std::string, std::allocator<std::string> > const&, TF_Tensor**, std::vector<std::string, std::allocator<std::string> > const&, TF_Buffer*, TF_Status*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#11 0x00007f5d5e010aaa in TF_SessionRun () from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#12 0x00007f5d5d965b24 in tensorflow::TF_SessionRun_wrapper_helper(TF_Session*, char const*, TF_Buffer const*, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<_object*, std::allocator<_object*> > const&, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<TF_Operation*, std::allocator<TF_Operation*> > const&, TF_Buffer*, TF_Status*, std::vector<_object*, std::allocator<_object*> >*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#13 0x00007f5d5d965c12 in tensorflow::TF_SessionRun_wrapper(TF_Session*, TF_Buffer const*, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<_object*, std::allocator<_object*> > const&, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<TF_Operation*, std::allocator<TF_Operation*> > const&, TF_Buffer*, TF_Status*, std::vector<_object*, std::allocator<_object*> >*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#14 0x00007f5d5d91eb5e in _wrap_TF_SessionRun_wrapper ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#15 0x00007f5e163da04a in _PyCFunction_FastCallDict () from /usr/lib64/libpython3.6m.so.1.0
+#16 0x00007f5e16445a3f in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#17 0x00007f5e1643a0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#18 0x00007f5e1644582a in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#19 0x00007f5e16445b63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#20 0x00007f5e1643a0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#21 0x00007f5e164460aa in PyEval_EvalCodeEx () from /usr/lib64/libpython3.6m.so.1.0
+#22 0x00007f5e163b45d3 in function_call () from /usr/lib64/libpython3.6m.so.1.0
+---Type <return> to continue, or q <return> to quit---
+#23 0x00007f5e1639c443 in PyObject_Call () from /usr/lib64/libpython3.6m.so.1.0
+#24 0x00007f5e1643bd7a in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#25 0x00007f5e16444a7c in _PyEval_EvalCodeWithName () from /usr/lib64/libpython3.6m.so.1.0
+#26 0x00007f5e164458da in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#27 0x00007f5e16445b63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#28 0x00007f5e1643a0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#29 0x00007f5e16444ef7 in _PyEval_EvalCodeWithName () from /usr/lib64/libpython3.6m.so.1.0
+#30 0x00007f5e164458da in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#31 0x00007f5e16445b63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#32 0x00007f5e1643a0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#33 0x00007f5e1644582a in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#34 0x00007f5e16445b63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#35 0x00007f5e1643a0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#36 0x00007f5e16444a7c in _PyEval_EvalCodeWithName () from /usr/lib64/libpython3.6m.so.1.0
+#37 0x00007f5e164458da in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#38 0x00007f5e16445b63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#39 0x00007f5e1643a0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#40 0x00007f5e16445e62 in PyEval_EvalCodeEx () from /usr/lib64/libpython3.6m.so.1.0
+#41 0x00007f5e16446afb in PyEval_EvalCode () from /usr/lib64/libpython3.6m.so.1.0
+#42 0x00007f5e164d01ee in run_mod () from /usr/lib64/libpython3.6m.so.1.0
+#43 0x00007f5e1637b464 in PyRun_FileExFlags () from /usr/lib64/libpython3.6m.so.1.0
+#44 0x00007f5e1637b836 in PyRun_SimpleFileExFlags () from /usr/lib64/libpython3.6m.so.1.0
+#45 0x00007f5e164d66a2 in Py_Main () from /usr/lib64/libpython3.6m.so.1.0
+#46 0x0000000000400a99 in main ()
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) 
+(gdb) generate-core-file
+warning: target file /proc/86232/cmdline contained unexpected null characters
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06690000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06691000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06692000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06693000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06694000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06695000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06696000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06697000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06698000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e06699000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e066a3000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e08e84000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e08e94000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e0b686000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e0b696000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e0f042000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e0f052000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e16844000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e16845000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e16846000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e16847000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e16848000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f5e16849000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e1691d000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e1691e000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f5e1691f000.
+warning: Memory read failed for corefile section, 12288 bytes at 0x7fff781b0000.
+Saved corefile core.86232
+(gdb) quit
+A debugging session is active.
+
+        Inferior 1 [process 86232] will be detached.
+
+Quit anyway? (y or n) y
+Detaching from program: /usr/bin/python3, process 86232
+root@9.91.65.19:/dockerdata/cathy/consumer/hvd-test-master# gdb python3 core.86232
+GNU gdb (GDB) Red Hat Enterprise Linux 7.6.1-80.el7
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /usr/bin/python3.6...Reading symbols from /usr/bin/python3.6...(no debugging symbols found)...done.
+(no debugging symbols found)...done.
+
+warning: core file may not match specified executable file.
+[New LWP 86466]
+[New LWP 86467]
+[New LWP 86468]
+[New LWP 86481]
+[New LWP 86486]
+[New LWP 86716]
+[New LWP 86717]
+[New LWP 86718]
+[New LWP 86719]
+[New LWP 86720]
+[New LWP 86721]
+[New LWP 86722]
+[New LWP 86724]
+[New LWP 86725]
+[New LWP 86726]
+[New LWP 86727]
+[New LWP 86728]
+[New LWP 86729]
+[New LWP 86730]
+[New LWP 86731]
+[New LWP 86732]
+[New LWP 86733]
+[New LWP 86734]
+[New LWP 86735]
+[New LWP 86736]
+[New LWP 86737]
+[New LWP 86738]
+[New LWP 86739]
+[New LWP 86740]
+[New LWP 86741]
+[New LWP 86742]
+[New LWP 86743]
+[New LWP 86744]
+[New LWP 86745]
+[New LWP 86746]
+[New LWP 86747]
+[New LWP 86748]
+[New LWP 86749]
+[New LWP 86750]
+[New LWP 86751]
+[New LWP 86752]
+[New LWP 86753]
+[New LWP 86754]
+[New LWP 86755]
+[New LWP 86756]
+[New LWP 86757]
+[New LWP 86758]
+[New LWP 86759]
+[New LWP 86760]
+[New LWP 86761]
+[New LWP 86763]
+[New LWP 86764]
+[New LWP 86765]
+[New LWP 86766]
+[New LWP 86767]
+[New LWP 86768]
+[New LWP 86769]
+[New LWP 86770]
+[New LWP 86771]
+[New LWP 86772]
+[New LWP 86773]
+[New LWP 86774]
+[New LWP 86775]
+[New LWP 86776]
+[New LWP 86777]
+[New LWP 86778]
+[New LWP 86779]
+[New LWP 86780]
+[New LWP 86781]
+[New LWP 86782]
+[New LWP 86783]
+[New LWP 86784]
+[New LWP 86785]
+[New LWP 86786]
+[New LWP 86787]
+[New LWP 86788]
+[New LWP 86789]
+[New LWP 86790]
+[New LWP 86791]
+[New LWP 86792]
+[New LWP 86793]
+[New LWP 86794]
+[New LWP 86795]
+[New LWP 86796]
+[New LWP 86797]
+[New LWP 86798]
+[New LWP 86799]
+[New LWP 86800]
+[New LWP 86801]
+[New LWP 86802]
+[New LWP 86803]
+[New LWP 86804]
+[New LWP 86805]
+[New LWP 86806]
+[New LWP 86807]
+[New LWP 86808]
+[New LWP 86809]
+[New LWP 87008]
+[New LWP 87044]
+[New LWP 87045]
+[New LWP 87149]
+[New LWP 87150]
+[New LWP 87151]
+[New LWP 87152]
+[New LWP 87153]
+[New LWP 87154]
+[New LWP 87155]
+[New LWP 87156]
+[New LWP 87157]
+[New LWP 87158]
+[New LWP 87159]
+[New LWP 87160]
+[New LWP 87161]
+[New LWP 87162]
+[New LWP 87163]
+[New LWP 87164]
+[New LWP 87165]
+[New LWP 87166]
+[New LWP 87167]
+[New LWP 87168]
+[New LWP 87169]
+[New LWP 87170]
+[New LWP 87171]
+[New LWP 87172]
+[New LWP 87173]
+[New LWP 87174]
+[New LWP 87175]
+[New LWP 87176]
+[New LWP 87177]
+[New LWP 87178]
+[New LWP 87179]
+[New LWP 87180]
+[New LWP 87181]
+[New LWP 87182]
+[New LWP 87183]
+[New LWP 87184]
+[New LWP 87185]
+[New LWP 87186]
+[New LWP 87187]
+[New LWP 87188]
+[New LWP 87189]
+[New LWP 87190]
+[New LWP 87191]
+[New LWP 87192]
+[New LWP 87193]
+[New LWP 87194]
+[New LWP 87295]
+[New LWP 87367]
+[New LWP 87369]
+[New LWP 86232]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib64/libthread_db.so.1".
+Core was generated by `python3'.
+#0  0x00007f5e160e642d in __lll_lock_wait () from /usr/lib64/libpthread.so.0
+Missing separate debuginfos, use: debuginfo-install python3-3.6.8-10.el7.x86_64
+(gdb) bt
+#0  0x00007f5e160e642d in __lll_lock_wait () from /usr/lib64/libpthread.so.0
+#1  0x00007f5e160e1de6 in _L_lock_870 () from /usr/lib64/libpthread.so.0
+#2  0x00007f5e160e1cdf in pthread_mutex_lock () from /usr/lib64/libpthread.so.0
+#3  0x00007f5d3ef83cc5 in ?? () from /usr/lib64/libcuda.so.1
+#4  0x00007f5d3ef83e9e in ?? () from /usr/lib64/libcuda.so.1
+#5  0x00007f5d3f10b9d6 in cuLaunchKernel () from /usr/lib64/libcuda.so.1
+#6  0x00007f5deb06323d in ?? () from /usr/local/cuda/lib64/libcudart.so.10.0
+#7  0x00007f5deb0632c7 in ?? () from /usr/local/cuda/lib64/libcudart.so.10.0
+#8  0x00007f5deb09746b in cudaLaunchKernel () from /usr/local/cuda/lib64/libcudart.so.10.0
+#9  0x00007f5d4cac1755 in ncclBarrierEnqueueWait (comm=0x7f5d4833f530) at enqueue.cc:197
+#10 0x00007f5d4cac1bcf in ncclEnqueueCheck (info=info@entry=0x7f5da7656730) at enqueue.cc:438
+#11 0x00007f5d4cad5956 in ncclBroadcast (sendbuff=sendbuff@entry=0x7f57e7c9fffc, recvbuff=recvbuff@entry=0x7f57e7c9fffc, count=count@entry=1, 
+    datatype=ncclFloat32, root=root@entry=4, comm=comm@entry=0x7f5d4833f530, stream=stream@entry=0x7f5d48357340) at collectives/broadcast.cc:17
+#12 0x00007f5d4cad597b in ncclBcast (buff=buff@entry=0x7f57e7c9fffc, count=count@entry=1, datatype=<optimized out>, root=root@entry=4, 
+    comm=comm@entry=0x7f5d4833f530, stream=stream@entry=0x7f5d48357340) at collectives/broadcast.cc:24
+#13 0x00007f5d4caa20ad in horovod::common::NCCLHierarchicalAllreduce::Execute (this=<optimized out>, entries=..., response=...)
+    at horovod/common/ops/nccl_operations.cc:391
+#14 0x00007f5d4ca70441 in horovod::common::OperationManager::ExecuteAllreduce (this=this@entry=0x7f5d4833f080, entries=..., response=...)
+    at horovod/common/ops/operation_manager.cc:45
+#15 0x00007f5d4ca70a81 in horovod::common::OperationManager::ExecuteOperation (this=0x7f5d4833f080, entries=..., response=...)
+    at horovod/common/ops/operation_manager.cc:114
+#16 0x00007f5d4ca5081e in PerformOperation (state=..., 
+    response=<error reading variable: access outside bounds of object referenced via synthetic pointer>) at horovod/common/operations.cc:312
+#17 RunLoopOnce (state=...) at horovod/common/operations.cc:607
+#18 horovod::common::(anonymous namespace)::BackgroundThreadLoop (state=...) at horovod/common/operations.cc:535
+#19 0x00007f5d5afc7b1f in std::execute_native_thread_routine (__p=0x51b1380) at /dt7-src/libstdc++-v3/src/nonshared11/../c++11/thread.cc:83
+#20 0x00007f5e160dfe25 in start_thread () from /usr/lib64/libpthread.so.0
+#21 0x00007f5e1570335d in clone () from /usr/lib64/libc.so.6
+(gdb) quit

@@ -1,0 +1,122 @@
+(gdb) bt
+#0  0x00007f0802f82809 in syscall () from /usr/lib64/libc.so.6
+#1  0x00007f07533c187b in nsync::nsync_mu_semaphore_p_with_deadline(nsync::nsync_semaphore_s_*, timespec) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#2  0x00007f07533c0e99 in nsync::nsync_sem_wait_with_cancel_(nsync::waiter*, timespec, nsync::nsync_note_s_*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#3  0x00007f07533be45b in nsync::nsync_cv_wait_with_deadline_generic(nsync::nsync_cv_s_*, void*, void (*)(void*), void (*)(void*), timespec, nsync::nsync_note_s_*) () from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#4  0x00007f07533be933 in nsync::nsync_cv_wait_with_deadline(nsync::nsync_cv_s_*, nsync::nsync_mu_s_*, timespec, nsync::nsync_note_s_*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#5  0x00007f074e40e7dc in tensorflow::DirectSession::WaitForNotification(tensorflow::Notification*, long long) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#6  0x00007f074e40e82b in tensorflow::DirectSession::WaitForNotification(tensorflow::DirectSession::RunState*, tensorflow::CancellationManager*, long long) () from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#7  0x00007f074e417ebc in tensorflow::DirectSession::RunInternal(long long, tensorflow::RunOptions const&, tensorflow::CallFrameInterface*, tensorflow::DirectSession::ExecutorsAndKeys*, tensorflow::RunMetadata*, tensorflow::thread::ThreadPoolOptions const&) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#8  0x00007f074e4223de in tensorflow::DirectSession::Run(tensorflow::RunOptions const&, std::vector<std::pair<std::string, tensorflow::Tensor>, std::allocator<std::pair<std::string, tensorflow::Tensor> > > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tensorflow::RunMetadata*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#9  0x00007f074b1edb3d in tensorflow::SessionRef::Run(tensorflow::RunOptions const&, std::vector<std::pair<std::string, tensorflow::Tensor>, std::allocator<std::pair<std::string, tensorflow::Tensor> > > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<std::string, std::allocator<std::string> > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tensorflow::RunMetadata*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#10 0x00007f074b894d93 in TF_Run_Helper(tensorflow::Session*, char const*, TF_Buffer const*, std::vector<std::pair<std::string, tensorflow::Tensor>, std::allocator<std::pair<std::string, tensorflow::Tensor> > > const&, std::vector<std::string, std::allocator<std::string> > const&, TF_Tensor**, std::vector<std::string, std::allocator<std::string> > const&, TF_Buffer*, TF_Status*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#11 0x00007f074b895aaa in TF_SessionRun () from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#12 0x00007f074b1eab24 in tensorflow::TF_SessionRun_wrapper_helper(TF_Session*, char const*, TF_Buffer const*, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<_object*, std::allocator<_object*> > const&, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<TF_Operation*, std::allocator<TF_Operation*> > const&, TF_Buffer*, TF_Status*, std::vector<_object*, std::allocator<_object*> >*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#13 0x00007f074b1eac12 in tensorflow::TF_SessionRun_wrapper(TF_Session*, TF_Buffer const*, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<_object*, std::allocator<_object*> > const&, std::vector<TF_Output, std::allocator<TF_Output> > const&, std::vector<TF_Operation*, std::allocator<TF_Operation*> > const&, TF_Buffer*, TF_Status*, std::vector<_object*, std::allocator<_object*> >*) ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#14 0x00007f074b1a3b5e in _wrap_TF_SessionRun_wrapper ()
+   from /usr/local/lib64/python3.6/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.so
+#15 0x00007f0803c5f04a in _PyCFunction_FastCallDict () from /usr/lib64/libpython3.6m.so.1.0
+#16 0x00007f0803ccaa3f in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#17 0x00007f0803cbf0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#18 0x00007f0803cca82a in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#19 0x00007f0803ccab63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#20 0x00007f0803cbf0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#21 0x00007f0803ccb0aa in PyEval_EvalCodeEx () from /usr/lib64/libpython3.6m.so.1.0
+#22 0x00007f0803c395d3 in function_call () from /usr/lib64/libpython3.6m.so.1.0
+---Type <return> to continue, or q <return> to quit---
+#23 0x00007f0803c21443 in PyObject_Call () from /usr/lib64/libpython3.6m.so.1.0
+#24 0x00007f0803cc0d7a in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#25 0x00007f0803cc9a7c in _PyEval_EvalCodeWithName () from /usr/lib64/libpython3.6m.so.1.0
+#26 0x00007f0803cca8da in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#27 0x00007f0803ccab63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#28 0x00007f0803cbf0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#29 0x00007f0803cc9ef7 in _PyEval_EvalCodeWithName () from /usr/lib64/libpython3.6m.so.1.0
+#30 0x00007f0803cca8da in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#31 0x00007f0803ccab63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#32 0x00007f0803cbf0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#33 0x00007f0803cca82a in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#34 0x00007f0803ccab63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#35 0x00007f0803cbf0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#36 0x00007f0803cc9a7c in _PyEval_EvalCodeWithName () from /usr/lib64/libpython3.6m.so.1.0
+#37 0x00007f0803cca8da in fast_function () from /usr/lib64/libpython3.6m.so.1.0
+#38 0x00007f0803ccab63 in call_function () from /usr/lib64/libpython3.6m.so.1.0
+#39 0x00007f0803cbf0a7 in _PyEval_EvalFrameDefault () from /usr/lib64/libpython3.6m.so.1.0
+#40 0x00007f0803ccae62 in PyEval_EvalCodeEx () from /usr/lib64/libpython3.6m.so.1.0
+#41 0x00007f0803ccbafb in PyEval_EvalCode () from /usr/lib64/libpython3.6m.so.1.0
+#42 0x00007f0803d551ee in run_mod () from /usr/lib64/libpython3.6m.so.1.0
+#43 0x00007f0803c00464 in PyRun_FileExFlags () from /usr/lib64/libpython3.6m.so.1.0
+#44 0x00007f0803c00836 in PyRun_SimpleFileExFlags () from /usr/lib64/libpython3.6m.so.1.0
+#45 0x00007f0803d5b6a2 in Py_Main () from /usr/lib64/libpython3.6m.so.1.0
+#46 0x0000000000400a99 in main ()
+(gdb) generate-core-file
+warning: target file /proc/75939/cmdline contained unexpected null characters
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f15000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f16000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f17000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f18000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f19000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f1a000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f1b000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f1c000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f1d000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f07f3f1e000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07f3f28000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07f6709000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07f6719000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07f8f0b000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07f8f1b000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07fc8c7000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f07fc8d7000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08040c9000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08040ca000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08040cb000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08040cc000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08040cd000.
+warning: Memory read failed for corefile section, 65536 bytes at 0x7f08040ce000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08041a2000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08041a3000.
+warning: Memory read failed for corefile section, 4096 bytes at 0x7f08041a4000.
+warning: Memory read failed for corefile section, 12288 bytes at 0x7ffe58dd2000.
+Saved corefile core.75939
+(gdb) quit
+
+
+
+
+root@9.91.65.19:/dockerdata/cathy/consumer/hvd-test-master# gdb python3 core.75939
+Core was generated by `python3'.
+#0  0x00007f0802f7da4d in poll () from /usr/lib64/libc.so.6
+Missing separate debuginfos, use: debuginfo-install python3-3.6.8-10.el7.x86_64
+(gdb) bt
+#0  0x00007f0802f7da4d in poll () from /usr/lib64/libc.so.6
+#1  0x00007f07d3c6c7a3 in poll_dispatch (base=0x7f0734046b80, tv=0x7f0796edb440) at poll.c:165
+#2  0x00007f07d3c63dab in opal_libevent2022_event_base_loop (base=0x7f0734046b80, flags=2) at event.c:1630
+#3  0x00007f07d3c16815 in opal_progress () from /usr/local/lib/libopen-pal.so.40
+#4  0x00007f07d3c1cff5 in ompi_sync_wait_mt () from /usr/local/lib/libopen-pal.so.40
+#5  0x00007f07b0872a3e in mca_pml_ob1_send () from /usr/local/lib/openmpi/mca_pml_ob1.so
+#6  0x00007f07d64728ac in ompi_coll_base_allreduce_intra_ring () from /usr/local/lib/libmpi.so.40
+#7  0x00007f07d642bf71 in PMPI_Allreduce () from /usr/local/lib/libmpi.so.40
+#8  0x00007f073a326950 in horovod::common::NCCLHierarchicalAllreduce::Execute (this=<optimized out>, entries=..., response=...)
+    at horovod/common/ops/nccl_operations.cc:363
+#9  0x00007f073a2f5441 in horovod::common::OperationManager::ExecuteAllreduce (this=this@entry=0x7f0734331070, entries=..., response=...)
+    at horovod/common/ops/operation_manager.cc:45
+#10 0x00007f073a2f5a81 in horovod::common::OperationManager::ExecuteOperation (this=0x7f0734331070, entries=..., response=...)
+    at horovod/common/ops/operation_manager.cc:114
+#11 0x00007f073a2d581e in PerformOperation (state=..., 
+    response=<error reading variable: access outside bounds of object referenced via synthetic pointer>) at horovod/common/operations.cc:312
+#12 RunLoopOnce (state=...) at horovod/common/operations.cc:607
+#13 horovod::common::(anonymous namespace)::BackgroundThreadLoop (state=...) at horovod/common/operations.cc:535
+#14 0x00007f074884cb1f in std::execute_native_thread_routine (__p=0x3d321e0) at /dt7-src/libstdc++-v3/src/nonshared11/../c++11/thread.cc:83
+#15 0x00007f0803964e25 in start_thread () from /usr/lib64/libpthread.so.0
+#16 0x00007f0802f8835d in clone () from /usr/lib64/libc.so.6
+(gdb) 
